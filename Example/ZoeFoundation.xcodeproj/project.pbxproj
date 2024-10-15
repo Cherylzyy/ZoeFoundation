@@ -61,12 +61,12 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6074201D62A33F09610C144D /* Pods-ZoeFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoeFoundation_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZoeFoundation_Tests/Pods-ZoeFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		768C04862597EE9504349B5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		768C04862597EE9504349B5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9386BE0CD150C21629A42D0 /* Pods_ZoeFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZoeFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0179EA50D522FEC591C0203 /* Pods-ZoeFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZoeFoundation_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZoeFoundation_Example/Pods-ZoeFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D9F1BED8389725DB221A2AE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		E9ABF6AF9926FE66939FFAD3 /* ZoeFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZoeFoundation.podspec; path = ../ZoeFoundation.podspec; sourceTree = "<group>"; };
+		D9F1BED8389725DB221A2AE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E9ABF6AF9926FE66939FFAD3 /* ZoeFoundation.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZoeFoundation.podspec; path = ../ZoeFoundation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				3C88030948F1B45AFACFF7A8 /* Pods-ZoeFoundation_Tests.debug.xcconfig */,
 				6074201D62A33F09610C144D /* Pods-ZoeFoundation_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -365,12 +365,10 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZoeFoundation_Example/Pods-ZoeFoundation_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/ZoeFoundation/ZoeFoundation.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZoeFoundation.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
