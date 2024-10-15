@@ -1,0 +1,27 @@
+{
+  "name": "ZoeFoundation",
+  "version": "0.1.0",
+  "summary": "A short description of ZoeFoundation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cherylzyy/ZoeFoundation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cherylzyy": "zoezyyzhang@tencent.com"
+  },
+  "source": {
+    "git": "https://github.com/Cherylzyy/ZoeFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "ZoeFoundation/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 2.3"
+    ]
+  }
+}
